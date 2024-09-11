@@ -9,7 +9,7 @@ base {
 }
 loom {
 	mods {
-		"mclm_bales" {
+		"mclm_breadity" {
 			sourceSet("main")
 		}
 	}
