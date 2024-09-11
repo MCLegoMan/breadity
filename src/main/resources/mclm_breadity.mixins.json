@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.mclegoman.mclm_breadity.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"client": [
+		"client.EnderDragonEntityRendererMixin",
+		"client.EyesFeatureRendererMixin",
+		"client.LivingEntityRendererMixin",
+		"client.MinecraftClientMixin"
+	]
+}

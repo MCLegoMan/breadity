@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "mclm_breadity",
+	"version": "${version}",
+	"name": "Breadity",
+	"description": "This mod changes all entities into BREAD.",
+	"authors": [
+		"MCLegoMan"
+	],
+	"contact": {
+		"homepage": "https://github.com/MCLegoMan",
+		"sources": "https://github.com/MCLegoMan/Breadity"
+	},
+	"license": [
+		"LGPL-3.0-or-later"
+	],
+	"icon": "assets/mclm_breadity/icon.png",
+	"environment": "*",
+	"mixins": [
+		"mclm_breadity.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.21 <=1.21.1"
+	}
+}
